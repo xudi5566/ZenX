@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<applist>
+    <app appletID="bbt" com="com.eg.android.alipaygphone" delInNoAPK="false" delInWipe="true"
+        nameEN="alipay" nameZH="支付宝" ssdAID="true" type="ukey">
+        <rule verGE="10">
+            <action delInNoAPK="true" />
+        </rule>
+        <rule verEQ="" verGE="@string/app_name" verGT=".MainActivity" verLE="" verNE="">
+            <action label="dd" />
+        </rule>
+    </app>
+    <app appletID="666" com="com.eg.44" delInNoAPK="false" delInWipe="true" nameEN="alipay"
+        nameZH="大花猫" ssdAID="true" type="ukey">
+        <rule verGE="10">
+            <action delInNoAPK="true" />
+            <action tmd="true" />
+        </rule>
+        <rule verEQ="" verGE="@string/app_name" verGT=".MainActivity" verLE="" verNE="">
+            <action delInNoAPK="true" />
+            <action tmd="true" />
+            <action delInNoAPK="true" />
+            <action tmd="true" />
+        </rule>
+    </app>
+    <app appletID="666" com="com.eg.44" delInNoAPK="false" delInWipe="true" nameEN="alipay"
+        nameZH="大花猫" ssdAID="true" type="carkey">
+        <rule verGE="10">
+            <action delInNoAPK="true" />
+        </rule>
+        <rule verEQ="" verGE="@string/app_name" verGT=".MainActivity" verLE="" verNE="">
+            <action label="dd" />
+        </rule>
+    </app>
+
+    <app appletID="666" com="com.eg.44333" delInNoAPK="false" delInWipe="true" nameEN="alipay"
+        nameZH="大花猫" ssdAID="true" type="IDkey">
+        <rule verGE="10">
+            <action delInNoAPK="true" />
+        </rule>
+        <rule verEQ="" verGE="@string/app_name" verGT=".MainActivity" verLE="" verNE="">
+            <action label="dd" />
+        </rule>
+    </app>
+</applist>
